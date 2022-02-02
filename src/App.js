@@ -69,7 +69,7 @@ useEffect(() => {
             handleEmptyCart ={handleEmptyCart }
             />} 
             />
-            <Route path='/checkout' element={<Checkout/>} />
+            
         </Routes>
 
       </>
