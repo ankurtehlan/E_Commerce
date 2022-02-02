@@ -4,7 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import Products from './components/Products/Products';
 import Cart from './components/Cart/Cart';
 import { Routes, Route } from 'react-router-dom';
-import Checkout from './components/CheckoutForm/Checkout/Checkout';
+
 
 function App() { 
   
