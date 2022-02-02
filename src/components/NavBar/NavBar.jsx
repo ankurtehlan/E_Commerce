@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppBar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core';
-import ToolBar from '@material-ui/core/ToolBar'; 
+import { Toolbar } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';  
 import logo from '../../assets/commerce.png';
 import useStyles from './Styles';
@@ -13,7 +13,7 @@ const location = useLocation();
   return (
   <>
   <AppBar position='fixed' className={classes.appBar} color='inherit'>
-      <ToolBar>
+      <Toolbar>
           <Typography component={Link} to='/' variant='h6' className={classes.title} color='inherit'>
               <img src={ logo } alt="Tehlan_Commerce" height='25px' className={classes.image} />
               Tehlan Store
@@ -29,7 +29,7 @@ const location = useLocation();
           </div>
             )}          
           
-      </ToolBar>
+      </Toolbar>
   </AppBar>
 
   </>
