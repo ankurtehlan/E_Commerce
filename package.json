@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "npm": "5.7.1",
-    "node": "9.5.0"
+    "npm": "8.1.2",
+    "node": "16.13.2"
   },
   "dependencies": {
     "@chec/commerce.js": "^2.8.0",
